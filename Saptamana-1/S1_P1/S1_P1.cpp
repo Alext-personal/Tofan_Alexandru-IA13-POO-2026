@@ -1,6 +1,14 @@
-#include <iostream>
-int main(int argc, char* argv[])
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
 {
-    std::cout<<"hello;";
-    return 0;
+    FILE* file;
+    file = fopen("ini.txt", "r");
+    int sum = 0;
+    char i[100];
+    while (fgets(i, sizeof(i), file))
+        sum+=atoi(i);
+    printf("%d",sum);   
+    fclose(file);
 }
