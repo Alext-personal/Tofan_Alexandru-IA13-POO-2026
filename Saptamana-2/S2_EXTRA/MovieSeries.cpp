@@ -30,7 +30,7 @@ void MovieSeries::sort()
 {
     for(int i = 0; i < this -> count - 1; i++)
         for(int j = i + 1; j < this -> count; j++)
-            if(Movie::movie_compare_passed_years(*movies[i],*movies[j]) > 0)
+            if(Movie::movie_compare_passed_years(*movies[i],*movies[j]) < 0)
             {
                 Movie* temp = movies[i];
                 movies[i] = movies[j];
