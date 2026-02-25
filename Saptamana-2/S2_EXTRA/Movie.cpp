@@ -50,7 +50,7 @@ int Movie::get_passed_years()
     time_t t = time(NULL);
     tm* timePtr = localtime(&t);
     int currentYear = timePtr->tm_year + 1900;
-    return currentYear - releaseYear;
+    return currentYear - this -> releaseYear;
 }
 
 int Movie::movie_compare_name(Movie a, Movie b) {
