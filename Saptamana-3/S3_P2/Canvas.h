@@ -4,7 +4,7 @@ class Canvas
 {
     int width, height;
     char **canvas;
-    void DrawCirclePoints(int x, int y, int x1, int y1,char ch); // functie ajutatoare pt BresenGem 
+    void DrawCirclePoints(int x, int y, int x1, int y1,char ch); // functie ajutatoare pt Bresenham
 public:
     Canvas(int width,int height);
     void DrawCircle(int x, int y, int ray, char ch);
