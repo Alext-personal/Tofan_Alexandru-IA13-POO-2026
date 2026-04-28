@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab8", "lab8.vcxproj", "{CA03260D-E632-4841-B5B1-5F0603CF2DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Debug|Win32.Build.0 = Debug|Win32
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Debug|x64.ActiveCfg = Debug|x64
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Debug|x64.Build.0 = Debug|x64
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Release|Win32.ActiveCfg = Release|Win32
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Release|Win32.Build.0 = Release|Win32
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Release|x64.ActiveCfg = Release|x64
+		{CA03260D-E632-4841-B5B1-5F0603CF2DDD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
