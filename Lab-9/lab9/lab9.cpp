@@ -35,7 +35,10 @@ private:
     void shiftLeft(int index)
     {
         for (int i = index; i < maxIndex - 1; i++)
+        {
             content[i] = content[i + 1];
+            content[i].index = i;
+        }
         maxIndex--;
     }
     int searchKey(K key)
